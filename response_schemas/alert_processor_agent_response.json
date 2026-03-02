@@ -1,0 +1,24 @@
+{
+  "agent_name": "Alert Processor Agent",
+  "agent_id": "69a512382a5ce37e10b42d2b",
+  "description": "Receives TradingView alert webhook payloads, extracts the alert name and chart screenshot URL, formats a clean notification message, and sends it to Telegram with the screenshot attached",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "alert_name": "string",
+    "message": "string",
+    "screenshot_url": "string",
+    "timestamp": "string",
+    "status": "string",
+    "delivery_status": "string"
+  },
+  "example_response": {
+    "alert_name": "Name of the TradingView alert",
+    "message": "Formatted notification message",
+    "screenshot_url": "URL of the chart screenshot",
+    "timestamp": "Timestamp of when the alert was processed",
+    "status": "Processing status - success or error",
+    "delivery_status": "Whether the message was prepared for Telegram delivery"
+  }
+}

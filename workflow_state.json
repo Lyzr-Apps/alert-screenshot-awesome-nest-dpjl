@@ -1,0 +1,9 @@
+{
+  "agents": {
+    "alert_processor_agent": {
+      "agent_id": "69a512382a5ce37e10b42d2b",
+      "name": "Alert Processor Agent",
+      "type": "single"
+    }
+  }
+}

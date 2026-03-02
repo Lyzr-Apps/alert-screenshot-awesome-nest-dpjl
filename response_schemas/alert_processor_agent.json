@@ -1,0 +1,17 @@
+{
+  "agent_name": "Alert Processor Agent",
+  "agent_id": "69a512382a5ce37e10b42d2b",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "has_voice": false,
+  "has_file_output": false,
+  "response_schema": {
+    "alert_name": "string",
+    "message": "string",
+    "screenshot_url": "string",
+    "timestamp": "string",
+    "status": "string",
+    "delivery_status": "string"
+  }
+}
